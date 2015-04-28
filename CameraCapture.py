@@ -1,3 +1,11 @@
+#camera capture server.
+import sys
+import socket
+import pygame
+import pygame.camera
+from pygame.locals import *
+
+
 #create listening connection
 sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 host = socket.gethostname()
